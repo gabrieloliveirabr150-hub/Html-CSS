@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*
+        Em HTML é id = em CSS é #
+        Em HTML é class = em CSS é .
+/* 
+        O id é para um elemento específico, ou seja, só pode ser usado uma vez.
+        A class é para um grupo de elementos, ou seja, pode ser usada várias vezes.
+*/
+
+body {
+    background-color: rgb(122, 225, 191);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(21, 56, 108);
+}
+#principal {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+h2 {
+    color: rgb(19, 17, 17);
+}
+.basico {
+    color: rgb(12, 198, 74);
+    font-weight: bolder;
+}
+.intermediario {
+    color: rgb(213, 199, 6);
+    font-weight: bolder;
+}
+.avancado {
+    color: rgb(228, 11, 11);
+    font-weight: bolder;
+}
